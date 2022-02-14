@@ -73,12 +73,12 @@
 		/* For tablets: */
 		@media (min-width: 600px) {
 			.columns {
-				width: 33%;
+				width: 99%;
 			}
 
 		@media (min-width: 767px) {
 			.columns {
-				width: 10%;
+				width: 33%;
 			}
 		}
 
