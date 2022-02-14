@@ -1,0 +1,91 @@
+.columns {
+			float: left;
+			min-height: 1000px;
+			/*width: 24.8%;*/
+			color: white;
+			border: 1px solid yellow;
+			background: black;
+			text-align: center;
+		}
+		.columns h1 {
+			float: right;
+			padding: 10px;
+			color: blue;
+		}
+		.icons {
+			width: 200px;
+		}
+		a {
+			color: yellow;
+		}
+		a:visited {
+			color: orange;
+		}
+	
+		a:hover {
+			color: white;
+		}
+		
+		
+		a:active {
+			color: purple;
+		}
+		a {
+			box-sizing: border-box;
+			padding:0.5625rem 1rem;
+			font-weight: 700;
+			margin: 0px 0px 0px 0.75rem;
+			color: rgb(255,255,255);
+			border-radius: 0.5rem;
+			background: red
+
+		}
+		#soccer_h1 {
+			background: red;
+		}
+		#baseball_h1 {
+			background: #FFFFCC;
+			color: orange;
+		}
+		#basketball_h1 { 
+			background: black;
+
+		}
+		#hockey_h1 { 
+			background: lightblue;
+			color: blue;
+
+
+		}
+
+		.columns {
+			width: 49.5%;
+		}
+		.columns h1 {
+			color: red;
+		}
+
+
+		/* For mobile phones: */
+		
+		}
+
+		/* For tablets: */
+		@media (min-width: 600px) {
+			.columns {
+				width: 33%;
+			}
+		}
+
+		/* For desktop: */
+		@media (min-width: 768px) {
+			.columns {
+				width: 24.8%;
+				/*display: none;*/
+			}
+			.columns h1 {
+				float: right;
+				padding: 20px;
+				color: yellow;
+			}
+		}
