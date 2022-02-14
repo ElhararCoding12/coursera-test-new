@@ -68,14 +68,20 @@
 
 		/* For mobile phones: */
 		
-		}
+		
 
 		/* For tablets: */
 		@media (min-width: 600px) {
 			.columns {
 				width: 33%;
 			}
+
+		@media (min-width: 767px) {
+			.columns {
+				width: 100%;
+			}
 		}
+
 
 		/* For desktop: */
 		@media (min-width: 768px) {
