@@ -73,12 +73,12 @@
 		/* For mobile : */
 		@media (min-width: 767px) {
 			.columns {
-				width: 99%;
+				width: 33%;
 			}
 		/* for tablets */
 		@media (min-width: 800px) {
 			.columns {
-				width: 33%;
+				width: 99%;
 			}
 		}
 
