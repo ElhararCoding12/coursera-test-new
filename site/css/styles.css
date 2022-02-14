@@ -70,13 +70,13 @@
 		
 		
 
-		/* For tablets: */
-		@media (min-width: 600px) {
+		/* For mobile : */
+		@media (min-width: 767px) {
 			.columns {
 				width: 99%;
 			}
-
-		@media (min-width: 767px) {
+		/* for tablets */
+		@media (min-width: 800px) {
 			.columns {
 				width: 33%;
 			}
@@ -84,7 +84,7 @@
 
 
 		/* For desktop: */
-		@media (min-width: 768px) {
+		@media (min-width: 900px) {
 			.columns {
 				width: 24.8%;
 				/*display: none;*/
