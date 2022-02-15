@@ -71,7 +71,7 @@
 		
 
 		/* For mobile : */
-		@media (min-width: 767px) {
+		@media (min-width: 700px) {
 			.columns {
 				width: 99%;
 			}
